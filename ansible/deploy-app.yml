@@ -1,5 +1,5 @@
 - name: "Deploy latest app"
-  hosts: control[0]
+  hosts: controller[0]
   user: ubuntu
   gather_facts: false
   become: yes

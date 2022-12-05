@@ -28,7 +28,7 @@ Resources:
           ToPort: 22
           CidrIp: 0.0.0.0/0
 
-  controlHost1:
+  controllerHost1:
     Type: AWS::EC2::Instance
     Properties:
       InstanceType: t2.micro
@@ -42,7 +42,7 @@ Resources:
         - Key: Project
           Value: !Ref EnvironmentName
 
-  controlHost2:
+  controllerHost2:
     Type: AWS::EC2::Instance
     Properties:
       InstanceType: t2.micro

@@ -1,5 +1,5 @@
 - name: "Configure the EKS cluster with kubectl"
-  hosts: toggle[0]
+  hosts: controller[0]
   user: ubuntu
   gather_facts: false
   become: yes
