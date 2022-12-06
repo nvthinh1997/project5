@@ -5,4 +5,4 @@ app = Flask(__name__)
 def home():
     return "<h1 style='text-align: center; font-size: 50px;'>Hello, This is ThinhNV19's Cluster!</h1>"
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80, debug=True)21123
+    app.run(host='0.0.0.0', port=80, debug=True)
